@@ -1,0 +1,25 @@
+Name = input("Enter your Name")
+Roll_number = input("Enter your Roll number")
+Class_section = input("Enter your Class Section")
+    
+
+english = float(input("Enter your English Marks"))
+urdu = float(input("Enter your Urdu Marks"))
+islamiat = float(input("Enter your English Marks"))
+science = float(input("Enter your Science Marks"))
+history = float(input("Enter your History Marks"))
+
+total_marks = 500
+marks_obtain = english+urdu+islamiat+science+history
+avg_marks = (marks_obtain/total_marks)*100
+
+if avg_marks >= 90:
+    print("Congrats! You Passed with A+")
+elif avg_marks >= 80:
+    print("Congrats! You Passed with A")
+elif avg_marks >= 70:
+    print("Congrats! You Passed with B")
+elif avg_marks >= 60:
+    print("Congrats! You Passed with C")
+else:
+    print("Sorry, You are Failed")
