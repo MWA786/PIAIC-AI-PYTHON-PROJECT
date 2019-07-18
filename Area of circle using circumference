@@ -1,0 +1,6 @@
+    
+# Radius of Circle when you know Circumference
+PI = 3.142
+Circumference = float(input("Enter Circumference of Circle"))
+area = (Circumference*Circumference)/(4*PI)
+print("Area of the circle is:", "", area)
