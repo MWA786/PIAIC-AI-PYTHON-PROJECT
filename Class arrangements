@@ -1,0 +1,14 @@
+name = input("enter the name")
+marks = int(input("enter your marks"))
+age = int(input("enter your age"))
+if (marks >= 50 and age >= 15):
+    print("sit in back row")
+    
+elif (marks >= 60 and age >= 20):
+    print("sit in middle row")
+
+elif (marks >= 70 and age >= 25):
+    print("sit in front row")
+
+else:
+    print("terminated")
