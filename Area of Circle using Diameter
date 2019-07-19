@@ -1,0 +1,5 @@
+# Radius of Circle when you know Diameter
+PI = 3.142
+Diameter = float(input("Enter Diameter of Circle"))
+area = (PI/4)*(Diameter*Diameter)
+print("Area of the circle is:", "", area)
